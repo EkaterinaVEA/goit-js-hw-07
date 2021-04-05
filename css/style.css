@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* TASK-03 */
+.gallery__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.gallery__img {
+  display: block;
+}
